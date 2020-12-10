@@ -1,0 +1,25 @@
+:root{
+    --cor1: red;
+    --cor2: yellow;
+    --cor3: blue;
+    --cor4: green;
+
+}
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+}
+
+#minhaDiv{
+    background-color: var(--cor1);
+    min-width: 100vw;
+    min-height: 100vh;
+
+}
+@media screen and (min-width: 320px){
+    #minhaDiv {
+        background-color: var(--cor2);
+    }
+}
